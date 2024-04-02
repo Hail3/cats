@@ -1,0 +1,38 @@
+body {
+background-color: #222;
+color: #ddd;
+font-family: sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+.card {
+background-color: #333;
+border-radius: 5px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.btn {
+background-color: #444;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.btn:disabled{
+    background-color: #000;
+}
+
+.catImage {
+width: 200px;
+border-radius: 5px;
+box-shadow: 3px 3px 10px black;
+height: auto;
+margin-top: 20px;
+}
+
